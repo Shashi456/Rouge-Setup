@@ -28,5 +28,3 @@ echo "PATH=$PATH:$HOME/.local/bin" >> ~/.zshrc
 
 
 (cd pyrouge/pyrouge && python3 test.py)
-
-k
