@@ -8,6 +8,7 @@ set -o xtrace
 # CPAN
 
 # 1. Setup ROUGE correctly
+cpan install XML::Parser;
 cpan install XML::DOM;
 (cd ROUGE-1.5.5 && ./ROUGE-1.5.5.pl)
 (cd ROUGE-1.5.5/data/WordNet-2.0-Exceptions && ./buildExeptionDB.pl)
